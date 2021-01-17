@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gradient</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <h1>gradient coloors</h1>
     <div class="colors">
       <div class="color">
-        <h2>hex</h2>
+        <h2>hex #C9D2F0</h2>
         <div class="controls">
           <button class="adjust">☼</button>
           <button class="lock">♡</button>
@@ -51,7 +56,7 @@
       </div>
 
       <div class="color">
-        <h2>hex</h2>
+        <h2>hex #C9D2F0</h2>
         <div class="controls">
           <button class="adjust">☼</button>
           <button class="lock">♡</button>
@@ -92,7 +97,7 @@
       </div>
 
       <div class="color">
-        <h2>hex</h2>
+        <h2>hex #E9FFE8</h2>
         <div class="controls">
           <button class="adjust">☼</button>
           <button class="lock">♡</button>
@@ -133,7 +138,7 @@
       </div>
 
       <div class="color">
-        <h2>hex</h2>
+        <h2>hex #FF8B8B</h2>
         <div class="controls">
           <button class="adjust">☼</button>
           <button class="lock">♡</button>
@@ -174,7 +179,7 @@
       </div>
 
       <div class="color">
-        <h2>hex</h2>
+        <h2>hex #D7D2CB</h2>
         <div class="controls">
           <button class="adjust">☼</button>
           <button class="lock">♡</button>
@@ -236,8 +241,14 @@
     <div class="save-container">
       <div class="save-popup">
         <button class="save-close">●</button>
-        <input type="text" max-length="35" class="save-name" />
-        <button type="submit" class="save-submit"></button>
+        <lable for="gradient-name">gradient name</lable>
+        <input
+          type="text"
+          max-length="35"
+          class="save-name"
+          id="gradient-name"
+        />
+        <button type="submit" class="save-submit">save</button>
       </div>
     </div>
 

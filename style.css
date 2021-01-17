@@ -6,6 +6,13 @@
 
 body {
   color: rgb(12, 12, 12);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2 {
+  font-weight: 400;
 }
 
 path,
@@ -36,8 +43,20 @@ input {
 
 .color {
   position: relative;
+  flex: 1;
 }
 
 .color h2 {
   cursor: pointer;
+}
+
+.slider {
+  position: relative;
+  padding: 20px;
+}
+
+.slider button {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
