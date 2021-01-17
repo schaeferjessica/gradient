@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(12, 12, 12);
+}
+
+path,
+svg {
+  pointer-events: none;
+}
+
+button,
+input {
+  border: 0;
+  border-radius: 0.25rem;
+  background: transparent;
+  color: rgb(12, 12, 12);
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  cursor: pointer;
+}
+
+.colors {
+  min-height: 90vh;
+  display: flex;
+}
+
+.color {
+  position: relative;
+}
+
+.color h2 {
+  cursor: pointer;
+}
